@@ -1,0 +1,98 @@
+/*
+    General CSS for About Us
+*/
+
+body, html {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: CursiveFont;
+    src: url("Amalfi Coast.ttf");
+}
+
+@font-face {
+    font-family: BoxFont;
+    src: url(aliens_and_cows_trial.ttf);
+}
+
+@font-face {
+    font-family: Boowie;
+    src: url(BOOWIE.ttf);
+}
+
+.nav-content {
+    text-align: center;
+}
+
+.nav-list {
+    display: inline-block;
+    margin: auto;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list li {
+    float: left;
+    padding: 35px;
+    transition: 0.3s;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-family: Boowie;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.closebtn, .menubut {
+    display: none;
+}
+
+.nav-list li:hover {
+    transform: scale(1.1);
+    color: gray;
+}
+
+footer {
+    color: rgba(229, 226, 226, .3);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 115px;
+    margin: 30px;
+    text-align: center;
+}
+
+/*About Us Content*/
+
+.owner-pic {
+    position: relative;
+    float: left;
+    width: 30%;
+    max-width: 30%;
+    border-radius: 50%;
+    margin: 30px 60px;
+}
+
+.about-us-content p {
+    margin: 0 60px 0 0;
+    padding-top: 120px;
+    text-align: justify;
+    font-family: Boowie;
+}
+
+.about-us-content {
+    color: white;
+}

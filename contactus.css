@@ -1,0 +1,122 @@
+/*
+    General CSS for Contact Us
+*/
+
+body, html {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: CursiveFont;
+    src: url("Amalfi Coast.ttf");
+}
+
+@font-face {
+    font-family: BoxFont;
+    src: url(aliens_and_cows_trial.ttf);
+}
+
+@font-face {
+    font-family: Boowie;
+    src: url(BOOWIE.ttf);
+}
+
+.nav-content {
+    text-align: center;
+}
+
+.nav-list {
+    display: inline-block;
+    margin: auto;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list li {
+    float: left;
+    padding: 35px;
+    transition: 0.3s;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-family: Boowie;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.closebtn, .menubut {
+    display: none;
+}
+
+.nav-list li:hover {
+    transform: scale(1.1);
+    color: gray;
+}
+
+footer {
+    color: rgba(229, 226, 226, .3);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 115px;
+    margin: 30px;
+    text-align: center;
+}
+
+/*Contact Us*/
+
+
+.contacts {
+    position: relative;
+    color: white;
+    font-family: Boowie;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.loc-list {
+    list-style-type: none;
+    padding: 15px 0px 20px 0px;
+    margin: 0;
+}
+
+.loc-list-logo {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+}
+
+.loc-list-logo img {
+    position: relative;
+    width: 40%;
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    color: rgba(229, 226, 226, .3);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}

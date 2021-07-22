@@ -1,0 +1,27 @@
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*/
+.nav-content {
+    margin-top: 10%;
+}
+
+/*Image Grid*/
+
+.column {
+    position: relative;
+    top: 50px;
+    flex: 40%;
+    max-width: 40%;
+}
+
+.column img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+footer {
+    margin-top: 10%;
+    font-size: 12px;
+    padding: 20px;
+}

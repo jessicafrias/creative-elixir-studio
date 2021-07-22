@@ -1,0 +1,40 @@
+/* 
+    ##Device = Laptops, Desktops, Ipad Pro Portrait
+    ##Screen = B/w 1024px to 1280px
+*/
+
+.nav-list a {
+    font-size: 35px;
+}
+.nav-content {
+    margin-top: 5%;
+}
+
+.bgimage-sample {
+    width: 80%;
+    max-width: 80%;
+    height: 380px;
+    min-height: 380px;
+    max-height: 380px;  
+    margin-top: 20%;
+}
+
+/*Image Grid*/
+
+.column {
+    position: relative;
+    top: 50px;
+    flex: 40%;
+    max-width: 40%;
+}
+
+.column img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+footer {
+    margin-top: 10%;
+    font-size: 16px;
+    padding: 30px;
+}

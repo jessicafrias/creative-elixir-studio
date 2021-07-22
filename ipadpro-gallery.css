@@ -1,0 +1,37 @@
+/*Ipad pro landscape*/
+
+.nav-list a {
+    font-size: 30px;
+}
+.nav-content {
+    margin-top: 5%; 
+}
+
+.bgimage-sample {
+    width: 80%;
+    max-width: 80%; 
+    height: 480px;
+    min-height: 480px;
+    max-height: 480px;  
+    margin-top: 10%;
+}
+
+/*Image Grid*/
+
+.column {
+    position: relative;
+    top: 50px;
+    flex: 40%;
+    max-width: 40%;
+}
+
+.column img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+footer {
+    margin-top: 5%;
+    font-size: 20px;
+    padding-bottom: 20px;
+}

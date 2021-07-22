@@ -1,0 +1,56 @@
+/* 
+    ##Device = Laptops, Desktops, Ipad Pro Portrait
+    ##Screen = B/w 1024px to 1280px
+*/
+
+.nav-list a {
+    font-size: 35px;
+}
+.nav-content {
+    margin-top: 5%;
+}
+
+/*Contact Us*/
+
+.contacts {
+    position: relative;
+    color: white;
+    float: right;
+    font-family: Boowie;
+    letter-spacing: 1px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.loc-list {
+    list-style-type: none;
+    padding: 30px 110px;
+    margin: 0;
+}
+
+.loc-list-logo {
+    position: relative;
+    list-style-type: none;
+    top: 50px;
+    padding: 0 0 50px 0;
+    margin: 0;
+}
+
+.loc-list-logo img {
+    position: relative;
+    width: 80%;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer {
+    font-size: 22px;
+}
+

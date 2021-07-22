@@ -1,0 +1,39 @@
+/*Ipad pro landscape*/
+
+.nav-list a {
+    font-size: 30px;
+}
+.nav-content {
+    margin-top: 5%; 
+}
+
+/*About Us*/
+
+.owner-pic {
+    display: block;
+    position: relative;
+    margin-left: 35%;
+    top: 80px;
+    float: none;
+    width: 30%;
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+.about-us-content p {
+    margin: 110px 50px 50px 50px;
+    padding: 30px;
+    text-align: justify ;
+    line-height: 30px;
+    font-family: Boowie;
+    font-size: 25px;
+}
+
+.about-us-content {
+    color: white;
+}
+
+footer {
+    font-size: 20px;
+    padding-bottom: 20px;
+}

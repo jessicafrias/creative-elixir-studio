@@ -1,0 +1,41 @@
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*/
+.nav-content {
+    margin-top: 10%;
+}
+
+/*About Us*/
+
+
+.owner-pic {
+    display: block;
+    position: relative;
+    margin-left: 35%;
+    top: 80px;
+    float: none;
+    width: 30%;
+    max-width: 30%;
+    border-radius: 50%;
+    
+}
+
+.about-us-content p {
+    margin: 110px 50px 50px 50px;
+    padding: 0;
+    text-align: justify ;
+    line-height: 20px;
+    font-family: Boowie;
+    font-size: 14px;
+}
+
+.about-us-content {
+    color: white;
+}
+
+footer {
+    font-size: 12px;
+    margin: 3px;
+    padding: 0 0 5px 0;
+}

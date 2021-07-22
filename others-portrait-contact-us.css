@@ -1,0 +1,52 @@
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*/
+.nav-content {
+    margin-top: 10%; 
+}
+
+
+/*Contact Us*/
+
+.contacts {
+    position: relative;
+    color: white;
+    float: right;
+    font-family: Boowie;
+    letter-spacing: 1px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.loc-list {
+    list-style-type: none;
+    padding: 30px 90px;
+    margin: 0;
+}
+
+.loc-list-logo {
+    position: relative;
+    list-style-type: none;
+    top: 50px;
+    padding: 0 0 50px 0;
+    margin: 0;
+}
+
+.loc-list-logo img {
+    position: relative;
+    width: 80%;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    margin-top: 80%;
+    font-size: 12px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait)" href="mobiledevices-portrait.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 481px) and (max-width: 767px) and (orientation: landscape)" href="tablets-landscape.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait)" href="others-portrait.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape)" href="others-landscape.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1024px) and (max-width: 1280px)" href="desktops-laptops.css">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2)" href="ipadpro.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width: 1281px)" href="desktops.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="type/png" href="logo/icon_logo.png">
+    <title>Creative Elixir Studio</title>
+</head>
+<body>
+    
+    <div id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img class="close-button" src="logo/close.png" alt="Close Navigation"></a>
+            <div class="nav-content">
+                <ul class="nav-list">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+    </div>
+
+    <span class="menubut" style="cursor: pointer;" onclick="openNav()"><img class="open-button" src="logo/menu_button.png" alt="Open Navigation"></span>
+
+    <script type="text/javascript">
+        function openNav() {
+            document.getElementById("sideNav").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("sideNav").style.width = "0%"
+        }
+    </script>
+
+    <div class="bgimage-container">
+        <div class="bgimages">
+            <img src="logo/Logo.png" alt="Logo" class="bgimage-sample">
+            <img src="bgimages/unsplash-bgimage-1.jpg" alt="Image 1" class="bgimage-sample">
+            <img src="bgimages/unsplash-bgimage-2.jpg" alt="Image 2" class="bgimage-sample">
+            <img src="logo/Logo.png" alt="Logo" class="bgimage-sample">
+            <img src="bgimages/unsplash-bgimage-3.jpg" alt="Image 3" class="bgimage-sample">
+            <img src="bgimages/unsplash-bgimage-4.jpg" alt="Image 4" class="bgimage-sample">
+            <img src="logo/Logo.png" alt="Logo" class="bgimage-sample">
+            <img src="bgimages/unsplash-bgimage-5.jpg" alt="Image 5" class="bgimage-sample">
+            <img src="bgimages/unsplash-bgimage-6.jpg" alt="Image 6" class="bgimage-sample">
+            <img src="logo/Logo.png" alt="Logo" class="bgimage-sample">
+            <img src="bgimages/unsplash-bgimage-7.jpg" alt="Image 7" class="bgimage-sample">
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        /*For Gallery Slideshow*/
+        var imageIndex = 0;
+        slideshow();
+
+        function slideshow() {
+            var i;
+            var x = document.getElementsByClassName("bgimage-sample");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+
+            imageIndex++;
+            if (imageIndex > x.length) {
+                imageIndex = 1
+            }
+            x[imageIndex - 1].style.display = "block";
+            setTimeout(slideshow, 2000);
+        }   
+    </script>
+
+
+    <footer>
+        <p>Copyright © 2021 | Creative Elixir Studio</p>
+    </footer>
+
+</body>
+</html>

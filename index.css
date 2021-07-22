@@ -1,0 +1,83 @@
+/*
+    General CSS
+*/
+
+body, html {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: CursiveFont;
+    src: url("Amalfi Coast.ttf");
+}
+
+@font-face {
+    font-family: BoxFont;
+    src: url(aliens_and_cows_trial.ttf);
+}
+
+@font-face {
+    font-family: Boowie;
+    src: url(BOOWIE.ttf);
+}
+
+.nav-content {
+    text-align: center;
+}
+
+.nav-list {
+    display: inline-block;
+    margin: auto;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-list li {
+    float: left;
+    padding: 35px;
+    transition: 0.3s;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-family: Boowie;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.closebtn, .menubut {
+    display: none;
+}
+
+.nav-list li:hover {
+    transform: scale(1.1);
+    color: gray;
+}
+
+.bgimage-sample {
+    width: 50%;
+    max-width: 50%;
+    height: 480px;
+    min-height: 480px;
+    max-height: 480px;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+footer {
+    color: rgba(229, 226, 226, .3);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+

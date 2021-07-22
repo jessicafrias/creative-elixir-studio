@@ -1,0 +1,92 @@
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+
+
+.closebtn, .menubut {
+    display: block;
+}
+
+.open-button {
+    position: relative;
+    top: 10px;
+    right: 20px;
+    width: 5%;
+    float: right;
+}
+
+.close-button {
+    position: relative;
+    width: 10%;
+    float: right;
+    left: 30px;
+    bottom: 13px;
+    filter: opacity(.1);
+}
+
+.sidenav {
+    background-color: white;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 50px;
+    transition: 0.3s;
+}
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 0.3s;
+    
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+/*Side Nav Content*/
+.nav-list li {
+    text-align: center !important;
+    float: none;
+    padding: 10px !important;
+}
+
+.nav-list {
+    display: block !important;
+    margin-top: 8%;
+}
+
+.bgimage-sample {
+    width: 80%;
+    max-width: 80%;
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;  
+    margin-top: 10%;
+}
+
+/*Image Grid*/
+
+.gallery-container {
+    margin-left: 5%;
+}
+
+.column {
+    margin-top: 10%;
+}
+
+footer {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
